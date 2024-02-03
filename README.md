@@ -1,4 +1,5 @@
-# Helicopter Hover
+# Helicopter Hover 
+###### Version 1.2
 
 ## Overview
 
@@ -13,13 +14,22 @@ This script is designed for Grand Theft Auto V (GTA V) to enable an automatic ho
 ## Installation
 
 1. Make sure you have [ScriptHookV](http://www.dev-c.com/gtav/scripthookv/)
-2. Place the compiled `HelicopterHover.dll` file into your GTA V "scripts" folder.
+2. Place the `HelicopterHover.dll` & `HelictoperHover.ini` file into your GTA V `"scripts"` folder.
 
 ## Usage
 
 - Launch GTA V and ensure ScriptHookV is loaded.
 - In the game, press the `H` key to toggle the automatic hover mode for helicopters.
 - Experience the hovering effect as the script adjusts the helicopter's velocity.
+
+# Changelog V1.2
+### *Added*
+- **Vehicle Check:** Enhanced the script to verify that the player is in a helicopter before allowing hover activation. 
+- **Enhanced Visual Notification:** The visual notification now displays colour for __*Activated*__ or __*Deactivated*__.
+- **Ini File:** The script now supports `HelictoperHover.ini` file for configuration. *(ie: Keybinds, Notification.)*
+
+### *Fixed*
+- **Method Correction:** Corrected the method used for checking if the player is in a helicopter, resolving compilation issues.
 
 # Contact Us
 
