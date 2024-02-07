@@ -1,4 +1,4 @@
-# 🚁 Helicopter Hover - V1.3.0🚁
+# 🚁 Helicopter Hover - V1.3.1 🚁
 
 ### [Showcase Video](https://youtu.be/p0dRtj0-PyY)
 
@@ -14,7 +14,7 @@ This script is designed for Grand Theft Auto V (GTA V) to enable an automatic ho
 
 ## Installation
 
-1. Make sure you have [ScriptHookV](http://www.dev-c.com/gtav/scripthookv/)
+1. Make sure you have [ScriptHookV](http://www.dev-c.com/gtav/scripthookv/) & [ScriptHookVDotNet](https://github.com/scripthookvdotnet/scripthookvdotnet)
 2. Place the `HelicopterHover.dll` & `HelicopterHover.ini` file into your GTA V *"scripts"* folder.
 
 ## Usage
@@ -46,17 +46,28 @@ This script is designed for Grand Theft Auto V (GTA V) to enable an automatic ho
 [Download V1.3.0](https://github.com/SkyHighModifications/HelicopterHover/releases/tag/1.3.0)
 ### *Added*
 - **Turbulence & Stability:** Introducing new settings in `HelicopterHover.ini` to fine-tune the turbulence and stability for an improved hovering effect.
-- **HUD:** Added a Heads-Up Display (HUD) showing helicopter speed, altitude, and G-force. Press the default O key to toggle the HUD display. Users can customize HUD elements in the `HelicopterHover.ini file`.
+- **HUD:** Added a Heads-Up Display (HUD) showing helicopter speed, altitude, and G-force. Press the default `O` key to toggle the HUD display. Users can customize HUD elements in the `HelicopterHover.ini file`.
 ***Altitude units:** Meters (default), Feet // **Speed units:** Meters per Second (default), KPH, MPH, Knots*
 - **Logging:** A new logging file, `SkyHighModifications.log`, is added in the "GTA V Main Directory." This log records errors and the current script version for troubleshooting.
 - **On Ground Detection:** If the helicopter is not at least *10 meters / 32 feet* above ground, the script will now automatically disable the hover mode.
 
 ### *Updated*
-- **Notification Correction:** Bug fixes for visual notifications to ensure accurate and timely display.
 - **Hover Correction:** Improved hovering stability and turbulence for a more realistic experience.
 
 ### *Fixed*
 - **Notifications:** Fixed visual notifications to ensure accurate and timely display and other bug issues.
+---
+---
+#### V1.3.1 | Bug Fixes and New Feature
+[Download V1.3.1](https://github.com/SkyHighModifications/HelicopterHover/releases/tag/1.3.1)
+### *Added*
+- **GForce on HUD:** Added a G-force indicator on the HUD to show the current G-force of the helicopter.
+
+### *Updated*
+- **Ini File:** Added the ability to show All HUD Features or individual HUD Features.
+
+### *Fixed*
+- **Script Error:** Fixed a script error that caused the script to crash when the player was in a vehicle.
 ---
 ---
 ## How to Update
