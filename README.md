@@ -1,4 +1,4 @@
-# 🚁 Helicopter Hover - V1.3.1 🚁
+# 🚁 Helicopter Hover - V1.3.2 🚁
 
 ### [Showcase Video](https://youtu.be/p0dRtj0-PyY)
 
@@ -11,6 +11,7 @@ This script is designed for Grand Theft Auto V (GTA V) to enable an automatic ho
 - **Hover Activation:** Press the default `H` key to toggle the automatic hover mode for helicopters.
 - **Turbulence and Stability Adjustment:** The script adjusts the helicopter's velocity to create a hovering effect.
 - **Visual Notifications:** When the hover mode is engaged or disengaged, a visual notification appears above the minimap.
+- **HUD Support:** The script provides visual helicopter information like Speed, Altitude, Heading, etc.
 
 ## Installation
 
@@ -20,7 +21,7 @@ This script is designed for Grand Theft Auto V (GTA V) to enable an automatic ho
 ## Usage
 
 - Launch GTA V and ensure ScriptHookV is loaded.
-- In the game, press the default `H` key to toggle the automatic hover mode for helicopters.
+- In the game, press the default `H` key to toggle the automatic hover mode for helicopters and `O` key to toggle the HUD.
 - Experience the hovering effect as the script adjusts the helicopter's velocity.
 
 ## Changelog
@@ -68,6 +69,19 @@ This script is designed for Grand Theft Auto V (GTA V) to enable an automatic ho
 
 ### *Fixed*
 - **Script Error:** Fixed a script error that caused the script to crash when the player was in a vehicle.
+---
+---
+#### V1.3.2 | Auto-Land Feature and Bug Fixes
+[Download V1.3.2](https://github.com/SkyHighModifications/HelicopterHover/releases/tag/1.3.2)
+### *Added*
+- **Direction and Location on HUD:** Added a direction and location on the HUD to show the current direction and location of the helicopter.
+
+### *Fixed*
+- **Script Bugs:** Fixed a bug that caused the script to crash or lag when the player was near ground.
+- **HUD Bug:** Fixed a bug that caused the HUD not to deactivate when the player pressed the `O` key and display incorrectly when the player was in a vehicle.
+
+### *Removed*
+- **GForce on HUD:** Removed the G-force indicator on the HUD as it was not accurate.
 ---
 ---
 ## How to Update
